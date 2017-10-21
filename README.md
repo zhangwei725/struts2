@@ -2,8 +2,8 @@
 
 ## 一、概要
 
-Struts是Apache基于Model2模型（MVC设计模式）开发的一个开源的Web应用框架，由一组相互协作的类或组件、Servlet以及jsp标签库组成。
-Struts采用拦截器的机制来处理用户的请求，也使得业务逻辑控制器能够与Servlet完全脱离，大大缩减了使用MVC模式开发web应用的时间，降低了程序的复杂度，提高了开发效率。
+Struts是Apache基于Model2模型（MVC设计模式）开发的一个开源的Web应用框架，由一组相互协作的类或组件、Servlet以及jsp标签库组成。  
+Struts采用拦截器的机制来处理用户的请求，也使得业务逻辑控制器能够与Servlet完全脱离，大大缩减了使用MVC模式开发web应用的时间，降低了程序的复杂度，提高了开发效率。  
 Struts具有如下一些特点：
 
 1. 提供了拦截器，利用拦截器可以进行AOP（面向方面）编程，实现如权限拦截等功能
@@ -27,11 +27,11 @@ Struts 2 以 WebWork 为核心，采用拦截器的机制来处理用户的请�
 1. Struts 1
 2. Struts 2
 3. Webwork
-4. SpringMVC(重点)
+4. SpringMVC\(重点\)
 
 ## 四、Web 层框架的特点
 
-1. 原理：前端控制器模式(附-前端控制器模式)
+1. 原理：前端控制器模式\(附-前端控制器模式\)
 2. 核心：前端控制器（核心的控制器）
 3. Struts 2 框架前端控制器就是过滤器（Filter）
 
@@ -62,29 +62,29 @@ Struts 2 以 WebWork 为核心，采用拦截器的机制来处理用户的请�
 
 ## 七、核心jar介绍
 
-下载地址：http://struts.apache.org/download.cgi
+下载地址：[http://struts.apache.org/download.cgi](http://struts.apache.org/download.cgi)
 
-1. struts2-core-2.x.x.jar :　　　   
+1. struts2-core-2.x.x.jar :
 
    Struts 2框架的核心类库
 
-2. ognl-2.6.x.jar :　　　　　　　    
+2. ognl-2.6.x.jar :
 
    对象图导航语言（Object Graph Navigation Language），struts2框架通过其读写对象的属性
 
-3. freemarker-2.3.x.jar :　　　　   
+3. freemarker-2.3.x.jar :
 
    Struts 2的UI标签的模板使用FreeMarker编写
 
-4. commons-logging-1.x.x.jar :     
+4. commons-logging-1.x.x.jar :
 
    ASF出品的日志包，Struts 2框架使用这个日志包来支持Log4J和JDK 1.4+的日志记录。
 
-5. commons-fileupload-1.2.1.jar： 
+5. commons-fileupload-1.2.1.jar：
 
    文件上传组件，2.1.6版本后必须加入此文件
 
-#  
+# 
 
 
 
