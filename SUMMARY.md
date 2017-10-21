@@ -3,7 +3,7 @@
 * [简介](README.md)
 * [第一章](di-yi-zhang.md)
   * [一、基础教程](di-yi-zhang/yi-3001-ji-chu-jiao-cheng.md)
-  * 二、struts配置文件
+  * [二、struts配置文件](di-yi-zhang/er-3001-struts-pei-zhi-wen-jian.md)
 * 第二章
 * 第三章
 * [附件](fu-jian.md)
