@@ -10,7 +10,7 @@
 
 ## 二、步骤详解
 
-### 1、创建maven web项目 (略)
+### 1、创建maven web项目 \(略\)
 
 ### 2、在pom.xml中添加依赖包
 
@@ -29,7 +29,7 @@
 1. 配置的时候注意struts的版本 过滤的class也不一样
 
    ```
-   	<!--2.1.3之前-->
+       <!--2.1.3之前-->
        <filter>
            <filter-name>struts2</filter-name>
            <filter-class>org.apache.struts2.dispatcher.FilterDispatcher</filter-class>
@@ -44,14 +44,14 @@
            <filter-name>struts2</filter-name>
            <filter-class>org.apache.struts2.dispatcher.filter.StrutsPrepareAndExecuteFilter</filter-class>
        </filter>
-       
+
    <filter-mapping>
            <filter-name>struts2</filter-name>
            <url-pattern>/*</url-pattern>
    </filter-mapping>
    ```
 
-### 4、配置struts2.xml文件
+### 4、配置struts.xml文件
 
 #### 4.1、示例代码
 
@@ -75,23 +75,23 @@
 
    要配置Action的标签，那么必须要先配置package标签，代表的包的概念
 
-   - name属性
+   * name属性
 
-     > 包的名称，要求是唯一的，管理action配置 
+     > 包的名称，要求是唯一的，管理action配置
 
-   - extends属性
+   * extends属性
 
      > 继承，可以继承其他的包，只要继承了，那么该包就包含了其他包的功能，一般都是继承struts-default
 
-   - namespace属性
+   * namespace属性
 
-     > 名称空间，一般<action标签中的name属性共同决定访问路径（通俗话：怎么来访问action），常见的配置如下
+     > 名称空间，一般&lt;action标签中的name属性共同决定访问路径（通俗话：怎么来访问action），常见的配置如下
      >
-     > 根名称空间 : namespace="/"       
+     > 根名称空间 : namespace="/"
      >
-     > 带有名称的名称空间 : namespace="/xxx"   
+     > 带有名称的名称空间 : namespace="/xxx"
 
-   - abstract属性
+   * abstract属性
 
      > 抽象的。这个属性基本很少使用，值如果是true，那么编写的包是被继承的
 
@@ -99,15 +99,15 @@
 
    代表配置 action 类，包含的属性
 
-   - name 
+   * name
 
      > 和package标签的 namespace 属性一起来决定访问路径的
 
-   - class 
+   * class
 
      > 配置Action类的全路径（默认值是 ActionSupport 类）
 
-   - method
+   * method
 
      > Action类中执行的方法，如果不指定，默认值是 execute
 
@@ -115,11 +115,13 @@
 
    action 类中方法执行，返回的结果跳转的页面
 
-   - name     
+   * name
 
      > 结果页面逻辑视图名称
 
-   - type 
+   * type
 
      > 结果类型（默认值是转发，也可以设置其他的值）
+
+
 
