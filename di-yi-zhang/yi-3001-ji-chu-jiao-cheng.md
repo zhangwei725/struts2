@@ -95,6 +95,13 @@
 
      > 抽象的。这个属性基本很少使用，值如果是true，那么编写的包是被继承的
 
+     | 属性        | 描述                                       |
+     | --------- | ---------------------------------------- |
+     | name（必需）  | 为package的唯一标识                            |
+     | extends   | 指定package继承另一package的所有配置。通常情况下，我们使用struts-default作为package的基础。 |
+     | abstract  | 定义package为抽象的。如果标记为true，则package不能被最终用户使用。 |
+     | namespace | Actions的唯一命名空间                           |
+
 2. action标签
 
    代表配置 action 类，包含的属性
