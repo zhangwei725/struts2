@@ -6,7 +6,7 @@
   * [二、struts配置文件](di-yi-zhang/er-3001-struts-pei-zhi-wen-jian.md)
   * [三、Actions动作](di-yi-zhang/san-3001-actions-dong-zuo.md)
   * 四、Struts2 结果类型
-* 第二章
+* [第二章](di-er-zhang.md)
 * 第三章
 * [附件](fu-jian.md)
 
