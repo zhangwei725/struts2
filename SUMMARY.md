@@ -7,6 +7,8 @@
   * [三、Actions动作](di-yi-zhang/san-3001-actions-dong-zuo.md)
   * 四、Struts2 结果类型
 * [第二章](di-er-zhang.md)
+  * 五、Struts2 拦截器
+  * 六、s标签
 * 第三章
 * [附件](fu-jian.md)
 
