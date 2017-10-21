@@ -10,6 +10,7 @@
   * 五、Struts2 拦截器
   * 六、s标签
   * 七、validation验证
-* 第三章
+* [第三章](di-san-zhang.md)
+  * 八、Struts2 值栈/OGNL
 * [附件](fu-jian.md)
 
