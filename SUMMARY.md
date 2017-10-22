@@ -8,11 +8,11 @@
   * [四、Result结果类型](di-yi-zhang/si-3001-struts2-jie-guo-lei-xing.md)
 * [第二章](di-er-zhang.md)
   * 五、Struts2 拦截器
-  * 六、s标签
+  * [六、s标签](di-er-zhang/liu-3001-s-biao-qian.md)
   * 七、validation验证
 * [第三章](di-san-zhang.md)
-  * 八、Struts2 值栈/OGNL
-  * 九、文件上传与下载
+  * [八、Struts2 值栈/OGNL](di-san-zhang/ba-3001-struts2-zhi-6808-ognl.md)
+  * [九、文件上传与下载](di-san-zhang/jiu-3001-wen-jian-shang-chuan-yu-xia-zai.md)
 * [附件](fu-jian.md)
   * [附1-前端控制器模式](fu-jian/fu-1-qian-duan-kong-zhi-qi-mo-shi.md)
 
